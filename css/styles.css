@@ -1,0 +1,184 @@
+@media screen {
+
+	.titulo {
+		background-color: #364b5f;
+		color: white;
+		text-align: center;
+		font-weight: lighter;
+	}
+
+	.imp_header {
+		display:none;
+	}
+
+	h1, h2, h3, h4 {
+		color:#3c8dbc;
+	}
+
+	.fondo-header {
+		background-color: #364b5f; 
+	}
+
+	.navbar_logo {
+		margin:auto;
+	}
+
+	.navbar_logo>img {
+		width:100%;
+	}
+
+	.logo {
+		width: 100%;
+		margin: 1em 0em 2em 0em;
+	}
+
+	.logo-text {
+		font-size: 	90%;
+		line-height: 80%;
+		text-align: center;
+		overflow: hidden !important;
+	}
+
+	.logo-footer {
+		width:20%;
+	}
+	.aside>.nav-treeview>.nav-item {
+		width: 100%;
+	}
+
+	.mt-2 {
+		margin-bottom: 8em;
+	}
+
+	.objeto_link {
+		line-height: 80%;
+		font-size: 90%;
+	}
+	.accion {
+		position: fixed;
+	}
+
+	.fa-circle:before {
+	    content: "\f111";
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	td, th{
+		padding: 0.5em !important;
+	}
+
+	.containter-atributo-left {
+ 		width:49%;
+		display: inline-table;
+	}
+
+	.containter-atributo-right {
+		width:49%;
+		display: inline-table;
+		text-align: right;
+	}
+
+	.picture {
+		display: inline-table;
+		width: 48%;
+		margin:0.5em;
+	}
+
+	.picture>i>img, .picture>i>p {
+		width: 100% !important;
+	}
+
+	.picture>i>img {
+		border:1px solid gray;
+	}
+
+
+	.subheader {
+		background-color: #99c5e8;
+	}
+
+	.inner-table>tbody>tr:nth-child(odd) {
+	    background-color:#E6E3E3;
+		}
+	.inner-table>tbody>tr:nth-child(even) {
+	    background-color:#F7F7F7;
+		}
+
+	.ejemplo, .ejemplo>tbody>tr>td {
+		border: 1px solid gray;
+	}
+
+	blockquote {
+		background-color: #F7F7F7;
+	}
+
+	.ir-arriba {
+		/*display:none;*/
+		padding:20px;
+		background:#024959;
+		font-size:20px;
+		color:#fff;
+		cursor:pointer;
+		position: fixed;
+		bottom:20px;
+		right:20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+
+	@page {
+		size: A4;
+	}
+
+	html {
+		font-size: 90%;
+		margin:0em;
+	}
+
+	.navbar-logo {
+		background-image: url("imagenes/IGN-Header-Title.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.col-md-1 {
+		display: none;
+	}
+
+	.col-md-11 {
+		margin-top: 4em;
+		width: 80%;
+		padding: 0em;
+	}
+
+	.col-md-11, .card {
+		background-color: none !important;
+		width: 100% !important;
+	}
+
+	.container-fluid, .content {
+		background-color: none;
+	}
+
+	.picture {
+		width: 50%;
+	}
+
+
+}
